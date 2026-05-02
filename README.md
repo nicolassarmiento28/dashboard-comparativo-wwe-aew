@@ -2,6 +2,8 @@
 
 Dashboard comparativo de wrestling para analizar **WrestleMania (WWE)** vs **All In (AEW)** entre 2023 y 2026, con foco en:
 
+- Demo en producción: https://dashboard-comparativo-wwe-aew.vercel.app/
+
 - Métricas económicas (attendance, gate, revenue estimado, tickets)
 - Audiencia y contexto de plataformas (Peacock, Netflix, TNT/TBS, Max)
 - Rankings de merch por luchador y evento
