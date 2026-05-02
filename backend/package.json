@@ -1,0 +1,20 @@
+{
+  "name": "wrestling-dashboard-api",
+  "version": "1.0.0",
+  "description": "REST API para el dashboard comparativo WWE WrestleMania vs AEW All In (2024-2026)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* ─── Theme tokens (Tailwind v4 @theme) ─────────────────────── */
+@theme {
+  --color-base:     var(--bg-base);
+  --color-nav:      var(--bg-nav);
+  --color-surface:  var(--bg-surface);
+  --color-elevated: var(--bg-elevated);
+  --color-border-s: var(--border-strong);
+  --color-border-m: var(--border-mid);
+  --color-t1:       var(--text-1);
+  --color-dim:      var(--text-dim);
+  --color-t2:       var(--text-2);
+  --color-t3:       var(--text-3);
+  --color-t4:       var(--text-4);
+  --color-accent:   var(--accent);
+}
+
+/* ─── Dark mode (default) ────────────────────────────────────── */
+:root {
+  --bg-base:       #000000;
+  --bg-surface:    #0d0d11;
+  --bg-elevated:   #17171d;
+  --bg-nav:        rgba(0, 0, 0, 0.88);
+  --border-strong: #1f1f28;
+  --border-mid:    #141418;
+  --text-1:        #ffffff;
+  --text-dim:      #e2e8f0;
+  --text-2:        #94a3b8;
+  --text-3:        #64748b;
+  --text-4:        #475569;
+  --accent:        #4ade80;
+  --accent-bg:     rgba(74, 222, 128, 0.07);
+  --accent-border: rgba(74, 222, 128, 0.22);
+  --tooltip-bg:    #17171d;
+  --tooltip-border:#1f1f28;
+}
+
+/* ─── Light mode (Whiskey Dark) ──────────────────────────────── */
+[data-theme="light"] {
+  --bg-base:       #1c1a14;
+  --bg-surface:    #252219;
+  --bg-elevated:   #2e2b20;
+  --bg-nav:        rgba(18, 17, 12, 0.94);
+  --border-strong: #3d3928;
+  --border-mid:    #2e2b20;
+  --text-1:        #f5edcc;
+  --text-dim:      #e8ddb5;
+  --text-2:        #b5a870;
+  --text-3:        #7a7050;
+  --text-4:        #524c38;
+  --accent:        #4ade80;
+  --accent-bg:     rgba(74, 222, 128, 0.07);
+  --accent-border: rgba(74, 222, 128, 0.18);
+  --tooltip-bg:    #252219;
+  --tooltip-border:#3d3928;
+}
+
+/* ─── Base ───────────────────────────────────────────────────── */
+body {
+  background: var(--bg-base);
+  color: var(--text-1);
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.2s, color 0.2s;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}

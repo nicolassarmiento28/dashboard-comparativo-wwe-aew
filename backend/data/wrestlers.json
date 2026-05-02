@@ -1,0 +1,340 @@
+[
+  {
+    "id": "wrestler_cody",
+    "name": "Cody Rhodes",
+    "company": "WWE",
+    "nationality": "USA",
+    "active_years": [2024, 2025, 2026],
+    "merch_ranking": [
+      {
+        "event_id": "wm40",
+        "rank": 1,
+        "confidence": "estimated",
+        "notes": "Finish Your Story — campaña de merch más exitosa de WWE en años. Camisas, cinturones réplica y bandanas agotadas."
+      },
+      {
+        "event_id": "wm41",
+        "rank": 1,
+        "confidence": "estimated",
+        "notes": "Continuó como el #1 de merch. Story Complete fue el eslogan de la era post-Cena."
+      }
+    ],
+    "appearances": [
+      { "event_id": "wm40", "match_id": "match_wm40_01", "result": "win", "title": "WWE Undisputed Universal Championship" },
+      { "event_id": "wm41", "match_id": "match_wm41_01", "result": "win", "title": "WWE Championship" }
+    ],
+    "merch_items": ["camiseta Finish Your Story", "camiseta Story Complete", "cinturón réplica", "bandana", "figura de acción"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "El luchador más vendedor de WWE desde 2023. Su arco narrativo de 2 años construyó una conexión emocional única con el público que se tradujo directamente en ventas."
+  },
+  {
+    "id": "wrestler_rock",
+    "name": "The Rock",
+    "company": "WWE",
+    "nationality": "USA",
+    "active_years": [2024],
+    "merch_ranking": [
+      {
+        "event_id": "wm40",
+        "rank": 2,
+        "confidence": "estimated",
+        "notes": "Regreso como heel disparó ventas de merch vintage. Camisas del Hollywood Bloodline agotadas días antes del evento."
+      }
+    ],
+    "appearances": [
+      { "event_id": "wm40", "match_id": "match_wm40_01", "result": "loss", "role": "corner_man", "title": null }
+    ],
+    "merch_items": ["camiseta Hollywood Bloodline", "camiseta retro The Rock", "replica belt"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "Aparición especial como heel. Su regreso fue el factor que más impacto tuvo en el viewership de Noche 1 de WM40."
+  },
+  {
+    "id": "wrestler_seth",
+    "name": "Seth Rollins",
+    "company": "WWE",
+    "nationality": "USA",
+    "active_years": [2024, 2025],
+    "merch_ranking": [
+      {
+        "event_id": "wm40",
+        "rank": 3,
+        "confidence": "estimated",
+        "notes": "Visionary merch — constante top 5 de WWE desde 2022."
+      },
+      {
+        "event_id": "wm41",
+        "rank": 4,
+        "confidence": "estimated",
+        "notes": "Su rol como villain en el feud con CM Punk impulsó ventas de merch de ambos."
+      }
+    ],
+    "appearances": [
+      { "event_id": "wm41", "match_id": "match_wm41_02", "result": "loss", "title": null }
+    ],
+    "merch_items": ["camiseta Visionary", "gafas réplica", "camiseta Monday Night Rollins"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "Top 5 constante en ventas de merch desde 2022. Su versatilidad como face y heel mantiene su relevancia comercial."
+  },
+  {
+    "id": "wrestler_logan",
+    "name": "Logan Paul",
+    "company": "WWE",
+    "nationality": "USA",
+    "active_years": [2024],
+    "merch_ranking": [
+      {
+        "event_id": "wm40",
+        "rank": 4,
+        "confidence": "estimated",
+        "notes": "Crossover audience — sus fans de YouTube y redes sociales compran merch fuera del canal tradicional de WWE."
+      }
+    ],
+    "appearances": [
+      { "event_id": "wm40", "match_id": "match_wm40_03", "result": "win", "title": "WWE United States Championship" }
+    ],
+    "merch_items": ["camiseta Prime x WWE", "camiseta US Champ Logan", "gorra"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "Su audiencia de influencer amplía el mercado de merch más allá del fan de wrestling tradicional."
+  },
+  {
+    "id": "wrestler_orton",
+    "name": "Randy Orton",
+    "company": "WWE",
+    "nationality": "USA",
+    "active_years": [2024],
+    "merch_ranking": [
+      {
+        "event_id": "wm40",
+        "rank": 5,
+        "confidence": "estimated",
+        "notes": "Su regreso tras lesión generó una ola de ventas de merch vintage — RKO outta nowhere sigue siendo un slogan cultural."
+      }
+    ],
+    "appearances": [
+      { "event_id": "wm40", "match_id": "match_wm40_03", "result": "loss", "title": null }
+    ],
+    "merch_items": ["camiseta RKO Outta Nowhere", "camiseta Viper retro", "figura de acción"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "Regreso después de lesión grave. La nostalgia impulsó fuertemente las ventas de merch vintage."
+  },
+  {
+    "id": "wrestler_cena",
+    "name": "John Cena",
+    "company": "WWE",
+    "nationality": "USA",
+    "active_years": [2025],
+    "merch_ranking": [
+      {
+        "event_id": "wm41",
+        "rank": 2,
+        "confidence": "estimated",
+        "notes": "Farewell Tour generó ventas masivas de merch nostálgico. Camisas Never Give Up en múltiples colorways agotadas."
+      }
+    ],
+    "appearances": [
+      { "event_id": "wm41", "match_id": "match_wm41_01", "result": "loss", "title": null }
+    ],
+    "merch_items": ["camiseta Never Give Up farewell edition", "gorra retro", "figura de acción farewell", "cinturón réplica spinning"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "El Farewell Tour de Cena fue el evento de merch más importante de WWE en 2025. La nostalgia tiene un valor comercial enorme."
+  },
+  {
+    "id": "wrestler_punk",
+    "name": "CM Punk",
+    "company": "WWE",
+    "nationality": "USA",
+    "active_years": [2025],
+    "merch_ranking": [
+      {
+        "event_id": "wm41",
+        "rank": 3,
+        "confidence": "estimated",
+        "notes": "Second City Saint — su regreso a WWE y el feud con Rollins generó ventas masivas. El mejor merch mover que no es Cody."
+      }
+    ],
+    "appearances": [
+      { "event_id": "wm41", "match_id": "match_wm41_02", "result": "win", "title": null }
+    ],
+    "merch_items": ["camiseta Best in the World", "camiseta Second City Saint", "camiseta It's Clobberin Time", "figura de acción"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "CM Punk tiene uno de los fanbases más leales del wrestling. Cada nueva camiseta se agota rápidamente."
+  },
+  {
+    "id": "wrestler_tiffany",
+    "name": "Tiffany Stratton",
+    "company": "WWE",
+    "nationality": "USA",
+    "active_years": [2025],
+    "merch_ranking": [
+      {
+        "event_id": "wm41",
+        "rank": 4,
+        "confidence": "estimated",
+        "notes": "Nueva estrella del roster femenino. Sus ventas de merch crecieron exponencialmente tras ganar el campeonato."
+      }
+    ],
+    "appearances": [
+      { "event_id": "wm41", "match_id": "match_wm41_03", "result": "win", "title": "WWE Women's Championship" }
+    ],
+    "merch_items": ["camiseta Tiffy Time", "camiseta Women's Champion", "figura de acción"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "Ascenso rápido como estrella principal del roster femenino. Su personaje tiene fuerte conexión con el público joven."
+  },
+  {
+    "id": "wrestler_laknight",
+    "name": "LA Knight",
+    "company": "WWE",
+    "nationality": "USA",
+    "active_years": [2025],
+    "merch_ranking": [
+      {
+        "event_id": "wm41",
+        "rank": 5,
+        "confidence": "estimated",
+        "notes": "YEAH! — uno de los chants más populares de WWE. Su merch tiene gran demanda orgánica impulsada por el público."
+      }
+    ],
+    "appearances": [
+      { "event_id": "wm41", "match_id": "match_wm41_04", "result": "win", "title": "WWE United States Championship" }
+    ],
+    "merch_items": ["camiseta YEAH!", "gorra LA Knight", "camiseta Megastar"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "El chant YEAH es uno de los más orgánicos de la última era de WWE — eso se traduce directamente en ventas de merch."
+  },
+  {
+    "id": "wrestler_mjf",
+    "name": "MJF",
+    "company": "AEW",
+    "nationality": "USA",
+    "active_years": [2023, 2024],
+    "merch_ranking": [
+      {
+        "event_id": "allin23",
+        "rank": 1,
+        "confidence": "estimated",
+        "notes": "El heel más odiado y querido del wrestling independiente. Su merch irónico (the devil, local hero) tiene demanda constante."
+      },
+      {
+        "event_id": "allin24",
+        "rank": 1,
+        "confidence": "estimated",
+        "notes": "Continuó como el vendedor número 1 de AEW."
+      }
+    ],
+    "appearances": [
+      { "event_id": "allin23", "match_id": "match_allin23_01", "result": "win", "title": "AEW World Championship" }
+    ],
+    "merch_items": ["camiseta The Devil", "camiseta Local Hero", "camiseta Salt of the Earth", "anillo réplica"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "El mejor heel del wrestling en 2023-2024. Su merch funciona tanto para fans que lo aman como para los que lo odian."
+  },
+  {
+    "id": "wrestler_swerve",
+    "name": "Swerve Strickland",
+    "company": "AEW",
+    "nationality": "USA",
+    "active_years": [2024],
+    "merch_ranking": [
+      {
+        "event_id": "allin24",
+        "rank": 2,
+        "confidence": "estimated",
+        "notes": "Como campeón en el evento principal de Wembley, sus ventas de merch alcanzaron su pico histórico."
+      }
+    ],
+    "appearances": [
+      { "event_id": "allin24", "match_id": "match_allin24_01", "result": "win", "title": "AEW World Championship" }
+    ],
+    "merch_items": ["camiseta Swerve's House", "camiseta AEW Champion", "gorra"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "Primer campeón mundial negro de AEW. Su reinado fue uno de los mejor recibidos por la audiencia en 2024."
+  },
+  {
+    "id": "wrestler_toni",
+    "name": "Toni Storm",
+    "company": "AEW",
+    "nationality": "New Zealand",
+    "active_years": [2023, 2024],
+    "merch_ranking": [
+      {
+        "event_id": "allin23",
+        "rank": 3,
+        "confidence": "estimated",
+        "notes": "Su personaje de diva de película muda generó un merch creativo y diferente al estándar."
+      },
+      {
+        "event_id": "allin24",
+        "rank": 4,
+        "confidence": "estimated",
+        "notes": "Pese a perder el campeonato, la narrativa con Mariah May mantuvo alto el interés en su merch."
+      }
+    ],
+    "appearances": [
+      { "event_id": "allin23", "match_id": "match_allin23_02", "result": "loss", "title": "AEW Women's World Championship" },
+      { "event_id": "allin24", "match_id": "match_allin24_02", "result": "loss", "title": "AEW Women's World Championship" }
+    ],
+    "merch_items": ["camiseta Timeless Toni Storm", "póster estilo cine mudo", "camiseta Lightning from Down Under"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "Su personaje Timeless es uno de los más creativos del wrestling moderno. Genera ventas de merch por su originalidad."
+  },
+  {
+    "id": "wrestler_kenny",
+    "name": "Kenny Omega",
+    "company": "AEW",
+    "nationality": "Canada",
+    "active_years": [2023, 2024],
+    "merch_ranking": [
+      {
+        "event_id": "allin23",
+        "rank": 4,
+        "confidence": "estimated",
+        "notes": "Best Bout Machine — su fanbase global, especialmente en Japón y UK, genera ventas constantes."
+      },
+      {
+        "event_id": "allin24",
+        "rank": 3,
+        "confidence": "estimated",
+        "notes": "Su regreso de lesión generó una ola de ventas de merch de bienvenida."
+      }
+    ],
+    "appearances": [],
+    "merch_items": ["camiseta Best Bout Machine", "camiseta cleaner", "figura de acción"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "Tiene uno de los fanbases más internacionales del wrestling. Sus ventas en UK y Japón son especialmente altas."
+  },
+  {
+    "id": "wrestler_saraya",
+    "name": "Saraya",
+    "company": "AEW",
+    "nationality": "UK",
+    "active_years": [2023],
+    "merch_ranking": [
+      {
+        "event_id": "allin23",
+        "rank": 2,
+        "confidence": "estimated",
+        "notes": "Ganar en Wembley — su ciudad natal — generó un pico masivo de ventas de merch locales. El momento más emotivo del evento para el público inglés."
+      }
+    ],
+    "appearances": [
+      { "event_id": "allin23", "match_id": "match_allin23_02", "result": "win", "title": "AEW Women's World Championship" }
+    ],
+    "merch_items": ["camiseta Anti-Diva", "camiseta AEW Women's Champion", "bandera UK edition"],
+    "merch_revenue_est_usd": null,
+    "merch_revenue_confidence": "no_data",
+    "notes": "Ganar en Wembley con el público de su país fue el momento cumbre de su carrera en AEW. Las ventas de merch ese día fueron las más altas de su historia."
+  }
+]

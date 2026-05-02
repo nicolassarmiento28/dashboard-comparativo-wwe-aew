@@ -1,0 +1,293 @@
+[
+  {
+    "id": "match_wm40_01",
+    "event_id": "wm40",
+    "night": 1,
+    "order": 1,
+    "title": "WWE Undisputed Universal Championship",
+    "type": "singles",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "Roman Reigns", "role": "champion", "alignment": "heel", "with": ["Solo Sikoa", "The Rock"] },
+      { "name": "Cody Rhodes", "role": "challenger", "alignment": "face", "with": [] }
+    ],
+    "winner": "Cody Rhodes",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": true,
+    "notes": "El momento más emotivo de WM40. Cody Rhodes terminó su historia después de más de un año."
+  },
+  {
+    "id": "match_wm40_02",
+    "event_id": "wm40",
+    "night": 1,
+    "order": 2,
+    "title": "WWE Women's Championship",
+    "type": "singles",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "Iyo Sky", "role": "champion", "alignment": "heel", "with": ["Damage CTRL"] },
+      { "name": "Bayley", "role": "challenger", "alignment": "face", "with": [] }
+    ],
+    "winner": "Bayley",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": null
+  },
+  {
+    "id": "match_wm40_03",
+    "event_id": "wm40",
+    "night": 1,
+    "order": 3,
+    "title": "WWE United States Championship",
+    "type": "triple_threat",
+    "stipulation": "Triple Threat",
+    "participants": [
+      { "name": "Logan Paul", "role": "champion", "alignment": "heel", "with": [] },
+      { "name": "Randy Orton", "role": "challenger", "alignment": "face", "with": [] },
+      { "name": "Kevin Owens", "role": "challenger", "alignment": "face", "with": [] }
+    ],
+    "winner": "Logan Paul",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": "Logan Paul retuvo gracias a interferencia externa."
+  },
+  {
+    "id": "match_wm40_04",
+    "event_id": "wm40",
+    "night": 1,
+    "order": 4,
+    "title": "WWE Tag Team Championship",
+    "type": "tag_team",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "The Judgment Day", "role": "champion", "alignment": "heel", "with": [] },
+      { "name": "DIY (Ciampa & Gargano)", "role": "challenger", "alignment": "face", "with": [] }
+    ],
+    "winner": "DIY",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": null
+  },
+  {
+    "id": "match_wm40_05",
+    "event_id": "wm40",
+    "night": 2,
+    "order": 1,
+    "title": "Undisputed Tag Team Championship",
+    "type": "tag_team",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "Sami Zayn & Kevin Owens", "role": "champion", "alignment": "face", "with": [] },
+      { "name": "The Usos", "role": "challenger", "alignment": "heel", "with": [] }
+    ],
+    "winner": "Sami Zayn & Kevin Owens",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": null
+  },
+  {
+    "id": "match_wm41_01",
+    "event_id": "wm41",
+    "night": 2,
+    "order": 1,
+    "title": "WWE Championship",
+    "type": "singles",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "Cody Rhodes", "role": "champion", "alignment": "face", "with": [] },
+      { "name": "John Cena", "role": "challenger", "alignment": "heel", "with": [] }
+    ],
+    "winner": "Cody Rhodes",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": true,
+    "notes": "Parte del Farewell Tour de John Cena. Una de las peleas más promocionadas de la era moderna de WWE."
+  },
+  {
+    "id": "match_wm41_02",
+    "event_id": "wm41",
+    "night": 1,
+    "order": 1,
+    "title": "Special Singles Match",
+    "type": "singles",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "CM Punk", "role": "participant", "alignment": "face", "with": [] },
+      { "name": "Seth Rollins", "role": "participant", "alignment": "heel", "with": [] }
+    ],
+    "winner": "CM Punk",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": true,
+    "notes": "Continuación del feud que arrancó en WM40. Main event de Noche 1."
+  },
+  {
+    "id": "match_wm41_03",
+    "event_id": "wm41",
+    "night": 1,
+    "order": 2,
+    "title": "WWE Women's Championship",
+    "type": "singles",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "Tiffany Stratton", "role": "champion", "alignment": "heel", "with": [] },
+      { "name": "Bayley", "role": "challenger", "alignment": "face", "with": [] }
+    ],
+    "winner": "Tiffany Stratton",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": "Tiffany Stratton consolida su reinado como nueva estrella principal del roster femenino."
+  },
+  {
+    "id": "match_wm41_04",
+    "event_id": "wm41",
+    "night": 2,
+    "order": 2,
+    "title": "WWE United States Championship",
+    "type": "singles",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "LA Knight", "role": "challenger", "alignment": "face", "with": [] },
+      { "name": "Jacob Fatu", "role": "champion", "alignment": "heel", "with": [] }
+    ],
+    "winner": "LA Knight",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": null
+  },
+  {
+    "id": "match_allin23_01",
+    "event_id": "allin23",
+    "night": 1,
+    "order": 1,
+    "title": "AEW World Championship",
+    "type": "singles",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "MJF", "role": "champion", "alignment": "heel", "with": [] },
+      { "name": "Adam Cole", "role": "challenger", "alignment": "face", "with": [] }
+    ],
+    "winner": "MJF",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": true,
+    "notes": "MJF vs Adam Cole frente a 81,035 personas en Wembley — el evento más grande de la historia de AEW."
+  },
+  {
+    "id": "match_allin23_02",
+    "event_id": "allin23",
+    "night": 1,
+    "order": 2,
+    "title": "AEW Women's World Championship",
+    "type": "fatal_four_way",
+    "stipulation": "Fatal Four Way",
+    "participants": [
+      { "name": "Saraya", "role": "challenger", "alignment": "heel", "with": [] },
+      { "name": "Toni Storm", "role": "champion", "alignment": "face", "with": [] },
+      { "name": "Britt Baker", "role": "challenger", "alignment": "heel", "with": [] },
+      { "name": "Hikaru Shida", "role": "challenger", "alignment": "face", "with": [] }
+    ],
+    "winner": "Saraya",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": "Saraya ganó su primer campeonato de AEW en Wembley — su ciudad natal. Momento muy emotivo."
+  },
+  {
+    "id": "match_allin23_03",
+    "event_id": "allin23",
+    "night": 1,
+    "order": 3,
+    "title": "FTW Championship",
+    "type": "singles",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "Hook", "role": "champion", "alignment": "face", "with": [] },
+      { "name": "Samoa Joe", "role": "challenger", "alignment": "heel", "with": [] }
+    ],
+    "winner": "Hook",
+    "method": "submission",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": null
+  },
+  {
+    "id": "match_allin24_01",
+    "event_id": "allin24",
+    "night": 1,
+    "order": 1,
+    "title": "AEW World Championship",
+    "type": "singles",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "Swerve Strickland", "role": "champion", "alignment": "face", "with": [] },
+      { "name": "Bryan Danielson", "role": "challenger", "alignment": "face", "with": [] }
+    ],
+    "winner": "Swerve Strickland",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": true,
+    "notes": "Swerve Strickland defendió el título en Wembley. Danielson anunció su retiro del wrestling de tiempo completo después de esta pelea."
+  },
+  {
+    "id": "match_allin24_02",
+    "event_id": "allin24",
+    "night": 1,
+    "order": 2,
+    "title": "AEW Women's World Championship",
+    "type": "singles",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "Mariah May", "role": "challenger", "alignment": "heel", "with": [] },
+      { "name": "Toni Storm", "role": "champion", "alignment": "face", "with": [] }
+    ],
+    "winner": "Mariah May",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": "Mariah May traicionó a su mentora Toni Storm meses antes — el payoff de este feud fue uno de los mejores de AEW en 2024."
+  },
+  {
+    "id": "match_allin24_03",
+    "event_id": "allin24",
+    "night": 1,
+    "order": 3,
+    "title": "AEW Tag Team Championship",
+    "type": "tag_team",
+    "stipulation": "Standard",
+    "participants": [
+      { "name": "The Young Bucks", "role": "champion", "alignment": "heel", "with": [] },
+      { "name": "FTR", "role": "challenger", "alignment": "face", "with": [] }
+    ],
+    "winner": "The Young Bucks",
+    "method": "pinfall",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": null
+  },
+  {
+    "id": "match_allin24_04",
+    "event_id": "allin24",
+    "night": 1,
+    "order": 4,
+    "title": "TBS Championship — Ladder Match",
+    "type": "ladder_match",
+    "stipulation": "Ladder Match",
+    "participants": [
+      { "name": "Mercedes Moné", "role": "participant", "alignment": "heel", "with": [] },
+      { "name": "Multiple challengers", "role": "challengers", "alignment": "mixed", "with": [] }
+    ],
+    "winner": "Mercedes Moné",
+    "method": "ladder_retrieval",
+    "result_confidence": "confirmed",
+    "is_main_event": false,
+    "notes": "Mercedes Moné (ex Sasha Banks) ganó el TBS Championship en Wembley."
+  }
+]

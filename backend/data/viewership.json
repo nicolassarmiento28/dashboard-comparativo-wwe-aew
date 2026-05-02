@@ -1,0 +1,130 @@
+[
+  {
+    "id": "view_wm40",
+    "event_id": "wm40",
+    "platform": "Peacock",
+    "peak_viewers": 2100000,
+    "peak_viewers_confidence": "confirmed",
+    "peak_viewers_source": "WWE / NBCUniversal filing",
+    "night_1_viewers": 2100000,
+    "night_2_viewers": 1950000,
+    "night_2_confidence": "confirmed",
+    "international_buyers_est": null,
+    "demo_rating_18_49": null,
+    "demo_rating_confidence": "no_data",
+    "demo_rating_note": "Exclusivo streaming Peacock — sin medición Nielsen tradicional",
+    "post_event": {
+      "raw_next_night_viewers": 2700000,
+      "raw_next_night_confidence": "confirmed",
+      "raw_next_night_source": "Showbuzz Daily",
+      "raw_demo_18_49": 0.82,
+      "smackdown_viewers_est": 2300000
+    },
+    "weekly_context": [
+      { "week": "-3", "label": "3 sem antes", "raw_viewers": 1800000 },
+      { "week": "-2", "label": "2 sem antes", "raw_viewers": 1900000 },
+      { "week": "-1", "label": "1 sem antes", "raw_viewers": 2100000 },
+      { "week": "0",  "label": "Post-WM (Raw)", "raw_viewers": 2700000 },
+      { "week": "+1", "label": "1 sem post", "raw_viewers": 2100000 },
+      { "week": "+2", "label": "2 sem post", "raw_viewers": 1850000 }
+    ],
+    "notes": "WM40 fue el evento más visto en Peacock hasta esa fecha. El regreso de The Rock como heel elevó el pico de Noche 1."
+  },
+  {
+    "id": "view_wm41",
+    "event_id": "wm41",
+    "platform": "Netflix",
+    "peak_viewers": 2400000,
+    "peak_viewers_confidence": "estimated",
+    "peak_viewers_source": "Wrestling Observer / SportsPro Media",
+    "night_1_viewers": 2400000,
+    "night_2_viewers": null,
+    "night_2_confidence": "no_data",
+    "hours_viewed_week": 38000000,
+    "hours_viewed_confidence": "estimated",
+    "hours_viewed_note": "Netflix reporta horas vistas semanales — no concurrentes en tiempo real",
+    "international_buyers_est": null,
+    "demo_rating_18_49": null,
+    "demo_rating_confidence": "no_data",
+    "demo_rating_note": "Netflix no audita con Nielsen — metodología incomparable con Peacock/cable",
+    "benchmark_royal_rumble_2025": {
+      "viewers": 5100000,
+      "confidence": "estimated",
+      "note": "Primer evento WWE en Netflix (enero 2025) — pico de curiosidad inusual"
+    },
+    "monthly_raw_netflix": [
+      { "month": "2025-01", "label": "Ene (estreno)", "viewers_est": 5100000 },
+      { "month": "2025-02", "label": "Feb", "viewers_est": 2100000 },
+      { "month": "2025-03", "label": "Mar", "viewers_est": 2000000 },
+      { "month": "2025-04", "label": "Abr (WM41)", "viewers_est": 2400000 }
+    ],
+    "notes": "Primer WM en Netflix. Cifras no auditadas públicamente. Netflix distribuye en 190 países simultáneamente — alcance global muy superior a Peacock."
+  },
+  {
+    "id": "view_wm42",
+    "event_id": "wm42",
+    "platform": "Netflix",
+    "peak_viewers": null,
+    "peak_viewers_confidence": "no_data",
+    "peak_viewers_source": null,
+    "demo_rating_18_49": null,
+    "demo_rating_confidence": "no_data",
+    "notes": "Evento no ocurrido antes del corte de datos (ago 2025)."
+  },
+  {
+    "id": "view_allin23",
+    "event_id": "allin23",
+    "platform": "TNT",
+    "peak_viewers": 1100000,
+    "peak_viewers_confidence": "estimated",
+    "peak_viewers_source": "PWTorch / Wrestling Observer",
+    "demo_rating_18_49": 0.35,
+    "demo_rating_confidence": "estimated",
+    "demo_rating_note": "Medido por Nielsen — metodología auditable y comparable",
+    "international_buyers_est": 120000,
+    "international_buyers_confidence": "estimated",
+    "ppv_platform": "FITE TV / international PPV",
+    "weekly_dynamite_context": [
+      { "month": "2023-01", "label": "Ene 23", "viewers": 920000 },
+      { "month": "2023-03", "label": "Mar 23", "viewers": 880000 },
+      { "month": "2023-05", "label": "May 23", "viewers": 860000 },
+      { "month": "2023-07", "label": "Jul 23", "viewers": 910000 },
+      { "month": "2023-08", "label": "All In 23", "viewers": 1100000 },
+      { "month": "2023-10", "label": "Oct 23", "viewers": 820000 }
+    ],
+    "notes": "Mejor viewership de AEW en un evento PPV. Wembley generó cobertura mediática global que amplió la audiencia más allá del fanbase habitual."
+  },
+  {
+    "id": "view_allin24",
+    "event_id": "allin24",
+    "platform": "TNT",
+    "peak_viewers": 800000,
+    "peak_viewers_confidence": "estimated",
+    "peak_viewers_source": "Wrestling Observer",
+    "demo_rating_18_49": 0.25,
+    "demo_rating_confidence": "estimated",
+    "demo_rating_note": "Caída vs 2023 — fragmentación entre TNT y Max",
+    "international_buyers_est": 90000,
+    "international_buyers_confidence": "estimated",
+    "ppv_platform": "Max / FITE TV",
+    "weekly_dynamite_context": [
+      { "month": "2024-01", "label": "Ene 24", "viewers": 780000 },
+      { "month": "2024-03", "label": "Mar 24", "viewers": 760000 },
+      { "month": "2024-06", "label": "Jun 24", "viewers": 740000 },
+      { "month": "2024-08", "label": "All In 24", "viewers": 800000 },
+      { "month": "2024-10", "label": "Oct 24", "viewers": 710000 }
+    ],
+    "notes": "Caída de ~27% en viewership vs All In 2023. La fragmentación entre TNT y Max, más la tendencia bajista de cable, explican la reducción."
+  },
+  {
+    "id": "view_allin25",
+    "event_id": "allin25",
+    "platform": "TBS",
+    "peak_viewers": null,
+    "peak_viewers_confidence": "no_data",
+    "peak_viewers_source": null,
+    "demo_rating_18_49": null,
+    "demo_rating_confidence": "no_data",
+    "notes": "Evento fuera del corte de datos (ago 2025)."
+  }
+]
