@@ -1,4 +1,4 @@
-# WWE vs AEW Dashboard
+# Dashboard Analítico de Wrestling
 
 Desarrollé una aplicación fullstack para visualización y comparación de métricas entre WWE y AEW utilizando React y Node.js. El proyecto incluye renderizado dinámico de datos, diseño responsive y una interfaz enfocada en experiencia de usuario y análisis visual.
 
