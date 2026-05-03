@@ -1,6 +1,9 @@
 # WWE vs AEW Dashboard
 
-Dashboard comparativo de wrestling para analizar **WrestleMania (WWE)** vs **All In (AEW)** entre 2023 y 2026, con foco en:
+Desarrollé una aplicación fullstack para visualización y comparación de métricas entre WWE y AEW utilizando React y Node.js. El proyecto incluye renderizado dinámico de datos, diseño responsive y una interfaz enfocada en experiencia de usuario y análisis visual.
+
+Dashboard comparativo de wrestling orientado al análisis de eventos WrestleMania (WWE) y All In (AEW) entre 2023 y 2026, permitiendo visualizar y contrastar métricas relevantes mediante gráficos, organización estructurada de datos e interfaces dinámicas enfocadas en exploración y lectura de información.
+
 
 - Demo en producción: https://dashboard-comparativo-wwe-aew.vercel.app/
 
