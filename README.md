@@ -5,7 +5,7 @@ Desarrollé una aplicación fullstack para visualización y comparación de mét
 Dashboard comparativo de wrestling orientado al análisis de eventos WrestleMania (WWE) y All In (AEW) entre 2023 y 2026, permitiendo visualizar y contrastar métricas relevantes mediante gráficos, organización estructurada de datos e interfaces dinámicas enfocadas en exploración y lectura de información.
 
 
-- Demo en producción: https://dashboard-comparativo-wwe-aew.vercel.app/
+- Demo en producción: https://dashboard-comparativo-wwe-aew.vercel.app/ (frontend en Vercel, backend en Northflank)
 
 - Métricas económicas (attendance, gate, revenue estimado, tickets)
 - Audiencia y contexto de plataformas (Peacock, Netflix, TNT/TBS, Max)
@@ -331,9 +331,12 @@ Perfil comercial/deportivo:
 
 ### Backend
 
-- Plataformas sugeridas: Render, Railway, Fly.io, VPS
+- **Producción actual: Northflank** (`https://site--wrestling-api--qd6hnmpb5l7w.code.run`)
+- Hubo un despliegue anterior en Railway que quedó abandonado (build roto, sin variables configuradas) — ignorarlo, no es el backend en uso.
+- Otras plataformas compatibles: Render, Fly.io, VPS
 - Exponer puerto por `PORT` (ya soportado)
 - Comando: `npm run start`
+- Setear `CORS_ORIGIN` con la URL exacta del frontend en Vercel (sin esto, cae al default `*`)
 
 ### Frontend
 
