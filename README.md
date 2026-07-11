@@ -56,6 +56,7 @@ Construir una visualización clara y práctica para comparar el rendimiento de l
 - Modo tema persistente (`dark` / `light`) guardado en `localStorage`
 - API con filtros por query params
 - Health endpoint para descubrimiento rápido de rutas
+- Headers de seguridad con `helmet` y rate limiting (300 req / 15 min / IP) con `express-rate-limit`
 
 ## Stack técnico
 
@@ -64,6 +65,8 @@ Construir una visualización clara y práctica para comparar el rendimiento de l
 - Node.js `>=18`
 - Express 4
 - CORS
+- Helmet (headers de seguridad)
+- express-rate-limit (300 req / 15 min / IP)
 - Datos estáticos en archivos JSON
 - Nodemon para desarrollo
 
@@ -336,7 +339,8 @@ Perfil comercial/deportivo:
 - Otras plataformas compatibles: Render, Fly.io, VPS
 - Exponer puerto por `PORT` (ya soportado)
 - Comando: `npm run start`
-- Setear `CORS_ORIGIN` con la URL exacta del frontend en Vercel (sin esto, cae al default `*`)
+- Setear `CORS_ORIGIN` con la URL exacta del frontend en Vercel (sin esto, cae al default `*`).
+  Actualmente solo soporta un único origin, no una lista separada por comas.
 
 ### Frontend
 
@@ -375,6 +379,7 @@ Perfil comercial/deportivo:
 - Mover `loadData` a lectura con `fs` para evitar caché de `require`
 - Documentar OpenAPI/Swagger
 - Agregar filtros avanzados y comparador dinámico en UI
+- Soportar múltiples orígenes en `CORS_ORIGIN` (separados por coma)
 
 
 ---

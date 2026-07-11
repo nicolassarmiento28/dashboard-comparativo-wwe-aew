@@ -1,55 +1,55 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Este archivo proporciona guía a los agentes de código cuando trabajan con código en este repositorio.
 
-## Commands
+## Comandos
 
-Run from repo root, backend and frontend are separate npm projects with their own dependencies.
+Ejecutar desde la raíz del repo; backend y frontend son proyectos npm independientes con sus propias dependencias.
 
 ```bash
-# Install
+# Instalar
 cd backend && npm install
 cd frontend && npm install
 
-# Dev (two terminals)
-npm run backend    # from root: backend on http://localhost:3001 (nodemon)
-npm run frontend   # from root: frontend on http://localhost:5173 (Vite, proxies /api -> :3001)
+# Desarrollo (dos terminales)
+npm run backend    # desde la raíz: backend en http://localhost:3001 (nodemon)
+npm run frontend   # desde la raíz: frontend en http://localhost:5173 (Vite, hace proxy de /api -> :3001)
 
-# Backend only
-cd backend && npm run start   # node, no watch
+# Solo backend
+cd backend && npm run start   # node, sin watch
 
-# Frontend only
-cd frontend && npm run build    # production build to dist/
-cd frontend && npm run preview  # preview the build
+# Solo frontend
+cd frontend && npm run build    # build de producción a dist/
+cd frontend && npm run preview  # preview del build
 cd frontend && npm run lint     # eslint
 
 # Health check
 curl http://localhost:3001/api/health
 ```
 
-No test suite exists in either package (`npm test` is not defined).
+No existe suite de tests en ninguno de los dos paquetes (`npm test` no está definido).
 
-## Architecture
+## Arquitectura
 
-Two independent apps, no shared package: `backend/` (Express) and `frontend/` (React + Vite). No database — the backend is a thin read-only REST layer over static JSON files.
+Dos aplicaciones independientes, sin paquete compartido: `backend/` (Express) y `frontend/` (React + Vite). Sin base de datos — el backend es una capa REST de solo lectura sobre archivos JSON estáticos.
 
-### Backend (`backend/src/index.js`, single file, ~340 lines)
+### Backend (`backend/src/index.js`, archivo único, ~340 líneas)
 
-- All routes and the `loadData()` helper live in this one file. `loadData(filename)` does `require(path.join(__dirname, '..', 'data', filename))` — filenames are always hardcoded literals in route handlers, never derived from request input.
-- Data lives in `backend/data/*.json`: `events.json`, `matches.json`, `tickets.json`, `viewership.json`, `wrestlers.json`. Filtering/joining across these files happens in-memory inside route handlers (e.g. `/api/compare` merges events + tickets + viewership by event id).
-- Response shape convention: collections return `{ data: [], total: N }`, single resources return `{ data: {} }`, errors return `{ error: "..." }`.
-- Middleware order matters: `helmet()` → `cors()` → `express-rate-limit` (300 req/15min) → `express.json()`.
-- **`CORS_ORIGIN` env var**: defaults to `*` if unset. Must be set to the exact frontend origin in any real deployment.
-- **Production backend runs on Northflank** (`https://site--wrestling-api--qd6hnmpb5l7w.code.run`), not Railway — an old Railway deployment exists but is abandoned (broken build, no env vars configured). Don't assume Railway is live.
+- Todas las rutas y el helper `loadData()` viven en este único archivo. `loadData(filename)` hace `require(path.join(__dirname, '..', 'data', filename))` — los nombres de archivo siempre son literales hardcodeados en los handlers de las rutas, nunca derivados del input de la request.
+- Los datos viven en `backend/data/*.json`: `events.json`, `matches.json`, `tickets.json`, `viewership.json`, `wrestlers.json`. El filtrado/join entre estos archivos ocurre en memoria dentro de los handlers de las rutas (p. ej. `/api/compare` combina events + tickets + viewership por id de evento).
+- Convención de forma de respuesta: las colecciones devuelven `{ data: [], total: N }`, los recursos únicos devuelven `{ data: {} }`, los errores devuelven `{ error: "..." }`.
+- El orden de los middlewares importa: `helmet()` → `cors()` → `express-rate-limit` (300 req/15min) → `express.json()`.
+- **Variable de entorno `CORS_ORIGIN`**: por defecto es `*` si no está seteada. Debe setearse con el origin exacto del frontend en cualquier despliegue real.
+- **El backend de producción corre en Northflank** (`https://site--wrestling-api--qd6hnmpb5l7w.code.run`), no en Railway — existe un despliegue viejo en Railway pero está abandonado (build roto, sin variables de entorno configuradas). No asumir que Railway está activo.
 
 ### Frontend (`frontend/src/`)
 
-- `api/wrestling.js` — single fetch wrapper, `BASE = import.meta.env.VITE_API_URL ?? '/api'`. In dev this resolves through the Vite proxy in `vite.config.js`; in prod (Vercel) `VITE_API_URL` must point at the Northflank backend and is baked in at build time (it's not a runtime secret despite being marked "Sensitive" in Vercel).
-- `sections/` — one component per dashboard section (Hero, Economic, Viewership, Wrestlers), each responsible for fetching and rendering its own slice of the API.
-- `components/` — small shared presentational pieces (`KpiCard`, `ConfidenceBadge`, `SectionHeader`).
-- Data confidence is a first-class concept end to end: records carry `*_confidence` (`confirmed` / `estimated` / `no_data`) and `*_source` fields from the JSON data through to the API response; the frontend renders this via `ConfidenceBadge` rather than treating all numbers as equally reliable.
-- Theme (`dark`/`light`) persists in `localStorage`.
+- `api/wrestling.js` — un único wrapper de fetch, `BASE = import.meta.env.VITE_API_URL ?? '/api'`. En desarrollo esto se resuelve a través del proxy de Vite en `vite.config.js`; en producción (Vercel) `VITE_API_URL` debe apuntar al backend de Northflank y queda incluida en el build (no es un secret en runtime, aunque en Vercel esté marcada como "Sensitive").
+- `sections/` — un componente por sección del dashboard (Hero, Economic, Viewership, Wrestlers), cada uno responsable de obtener y renderizar su propia porción de la API.
+- `components/` — piezas presentacionales pequeñas y compartidas (`KpiCard`, `ConfidenceBadge`, `SectionHeader`).
+- La confianza del dato es un concepto de primera clase de punta a punta: los registros llevan campos `*_confidence` (`confirmed` / `estimated` / `no_data`) y `*_source` desde el JSON de datos hasta la respuesta de la API; el frontend lo renderiza vía `ConfidenceBadge` en lugar de tratar todos los números como igualmente confiables.
+- El tema (`dark`/`light`) persiste en `localStorage`.
 
-### Adding a new event
+### Agregar un evento nuevo
 
-Documented in README under "Flujo de trabajo para actualizar datos": add to `events.json`, then stub/fill `tickets.json` and `viewership.json` (use `no_data` confidence if unknown), optionally `matches.json` and `wrestlers.json`. Restart the backend in dev — `require()` caches JSON and won't pick up edits otherwise.
+Documentado en el README bajo "Flujo de trabajo para actualizar datos": agregar a `events.json`, luego completar o dejar como stub `tickets.json` y `viewership.json` (usar confianza `no_data` si no se sabe), opcionalmente `matches.json` y `wrestlers.json`. Reiniciar el backend en desarrollo — `require()` cachea el JSON y no toma los cambios si no se reinicia.
