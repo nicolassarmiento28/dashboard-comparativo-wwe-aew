@@ -310,13 +310,16 @@ Entidad principal de cada evento con datos económicos y de plataforma.
 
 ### Secciones del dashboard
 
-| 🔥 Hero — WWE vs AEW | 📊 Análisis Económico |
-|---|---|
-| ![Hero section](screenshot-hero.png) | ![Economic section](screenshot-economic.png) |
-
-| 📺 Audiencia & Viewership | 👤 Luchadores & Merch |
-|---|---|
-| ![Viewership section](screenshot-viewership.png) | ![Wrestlers section](screenshot-wrestlers.png) |
+<table>
+  <tr>
+    <td width="50%" align="center"><b>🔥 Hero — WWE vs AEW</b><br><img src="screenshot-hero.png" width="90%"></td>
+    <td width="50%" align="center"><b>📊 Análisis Económico</b><br><img src="screenshot-economic.png" width="90%"></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><b>📺 Audiencia & Viewership</b><br><img src="screenshot-viewership.png" width="90%"></td>
+    <td width="50%" align="center"><b>👤 Luchadores & Merch</b><br><img src="screenshot-wrestlers.png" width="90%"></td>
+  </tr>
+</table>
 
 ---
 
