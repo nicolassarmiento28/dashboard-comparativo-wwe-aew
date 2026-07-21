@@ -1,9 +1,7 @@
 
 # WWE vs AEW — Dashboard Analítico
 
-<p align="center">
-  <img src="screenshot-fullpage.png" alt="Vista completa del dashboard" width="700">
-</p>
+![Vista completa del dashboard](screenshot-fullpage.png)
 
 Dashboard comparativo de alto nivel para analizar y contrastar métricas económicas, de audiencia y de merchandising entre los eventos principales de **WWE (WrestleMania)** y **AEW (All In)** desde 2023 hasta 2026.
 
@@ -304,31 +302,21 @@ Entidad principal de cada evento con datos económicos y de plataforma.
 
 ---
 
-## Capturas de Pantalla
+## Capturas
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
+### Vista general
 
-<div style="flex: 1 1 45%; min-width: 300px; text-align: center;">
-  <p style="font-weight: 700; font-size: 15px; margin-bottom: 6px;">🔥 Hero — WWE vs AEW</p>
-  <img src="screenshot-hero.png" alt="Hero section" style="width: 100%; border-radius: 10px;">
-</div>
+![Vista completa del dashboard](screenshot-fullpage.png)
 
-<div style="flex: 1 1 45%; min-width: 300px; text-align: center;">
-  <p style="font-weight: 700; font-size: 15px; margin-bottom: 6px;">📊 Análisis Económico</p>
-  <img src="screenshot-economic.png" alt="Economic section" style="width: 100%; border-radius: 10px;">
-</div>
+### Secciones del dashboard
 
-<div style="flex: 1 1 45%; min-width: 300px; text-align: center;">
-  <p style="font-weight: 700; font-size: 15px; margin-bottom: 6px;">📺 Audiencia & Viewership</p>
-  <img src="screenshot-viewership.png" alt="Viewership section" style="width: 100%; border-radius: 10px;">
-</div>
+| 🔥 Hero — WWE vs AEW | 📊 Análisis Económico |
+|---|---|
+| ![Hero section](screenshot-hero.png) | ![Economic section](screenshot-economic.png) |
 
-<div style="flex: 1 1 45%; min-width: 300px; text-align: center;">
-  <p style="font-weight: 700; font-size: 15px; margin-bottom: 6px;">👤 Luchadores & Merch</p>
-  <img src="screenshot-wrestlers.png" alt="Wrestlers section" style="width: 100%; border-radius: 10px;">
-</div>
-
-</div>
+| 📺 Audiencia & Viewership | 👤 Luchadores & Merch |
+|---|---|
+| ![Viewership section](screenshot-viewership.png) | ![Wrestlers section](screenshot-wrestlers.png) |
 
 ---
 
