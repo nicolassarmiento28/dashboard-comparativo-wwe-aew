@@ -302,11 +302,11 @@ Entidad principal de cada evento con datos económicos y de plataforma.
 
 ## Capturas
 
-| 🔥 Hero — WWE vs AEW | 📊 Análisis Económico |
+| Hero | Análisis Económico |
 |---|---|
 | ![Hero section](screenshots/hero.png) | ![Economic section](screenshots/economic.png) |
 
-| 📺 Audiencia & Viewership | 👤 Luchadores & Merch |
+| Audiencia & Viewership | Luchadores & Merch |
 |---|---|
 | ![Viewership section](screenshots/viewership.png) | ![Wrestlers section](screenshots/wrestlers.png) |
 
