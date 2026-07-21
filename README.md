@@ -1,7 +1,9 @@
 
 # WWE vs AEW — Dashboard Analítico
 
-![Vista completa del dashboard](screenshot-fullpage.png)
+<p align="center">
+  <img src="screenshot-fullpage.png" alt="Vista completa del dashboard" width="700">
+</p>
 
 Dashboard comparativo de alto nivel para analizar y contrastar métricas económicas, de audiencia y de merchandising entre los eventos principales de **WWE (WrestleMania)** y **AEW (All In)** desde 2023 hasta 2026.
 
@@ -304,29 +306,19 @@ Entidad principal de cada evento con datos económicos y de plataforma.
 
 ## Capturas de Pantalla
 
-### Hero Section — Comparativa WWE vs AEW
+<div align="center">
 
-![Hero section](screenshot-hero.png)
+| Hero — Comparativa WWE vs AEW | Análisis Económico |
+|---|---|
+| ![Hero section](screenshot-hero.png) | ![Economic section](screenshot-economic.png) |
+| KPIs comparativos lado a lado con badges de confianza | Gráficos de gate/revenue, asistencia y estructura de tickets |
 
-KPIs comparativos lado a lado con badges de confianza, asistencias totales, gate, revenue estimado y peak viewership.
+| Audiencia & Viewership | Luchadores & Merch |
+|---|---|
+| ![Viewership section](screenshot-viewership.png) | ![Wrestlers section](screenshot-wrestlers.png) |
+| Peak viewers históricos, contexto semanal y nota metodológica | Rankings de merch, top seller spotlight y tabla de luchadores |
 
-### Análisis Económico
-
-![Economic section](screenshot-economic.png)
-
-Gráficos de gate vs revenue estimado, asistencia por evento, tabla detallada y estructura de tickets con pie chart desplegable.
-
-### Audiencia & Viewership
-
-![Viewership section](screenshot-viewership.png)
-
-Peak viewers históricos, tarjetas por evento con minigráficos de contexto semanal y nota metodológica de comparabilidad entre plataformas.
-
-### Luchadores & Merch Rankings
-
-![Wrestlers section](screenshot-wrestlers.png)
-
-Ranking de top sellers por evento con gráfico de barras, spotlight del vendedor #1 y tabla completa de luchadores.
+</div>
 
 ---
 
