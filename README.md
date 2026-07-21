@@ -1,8 +1,6 @@
 
 # WWE vs AEW — Dashboard Analítico
 
-![Vista completa del dashboard](screenshot-fullpage.png)
-
 Dashboard comparativo de alto nivel para analizar y contrastar métricas económicas, de audiencia y de merchandising entre los eventos principales de **WWE (WrestleMania)** y **AEW (All In)** desde 2023 hasta 2026.
 
 > 🌐 **Demo en producción:** [dashboard-comparativo-wwe-aew.vercel.app](https://dashboard-comparativo-wwe-aew.vercel.app/)  
@@ -304,22 +302,13 @@ Entidad principal de cada evento con datos económicos y de plataforma.
 
 ## Capturas
 
-### Vista general
+| 🔥 Hero — WWE vs AEW | 📊 Análisis Económico |
+|---|---|
+| ![Hero section](screenshots/hero.png) | ![Economic section](screenshots/economic.png) |
 
-![Vista completa del dashboard](screenshot-fullpage.png)
-
-### Secciones del dashboard
-
-<table>
-  <tr>
-    <td width="50%" align="center"><b>🔥 Hero — WWE vs AEW</b><br><img src="screenshot-hero.png" width="90%"></td>
-    <td width="50%" align="center"><b>📊 Análisis Económico</b><br><img src="screenshot-economic.png" width="90%"></td>
-  </tr>
-  <tr>
-    <td width="50%" align="center"><b>📺 Audiencia & Viewership</b><br><img src="screenshot-viewership.png" width="90%"></td>
-    <td width="50%" align="center"><b>👤 Luchadores & Merch</b><br><img src="screenshot-wrestlers.png" width="90%"></td>
-  </tr>
-</table>
+| 📺 Audiencia & Viewership | 👤 Luchadores & Merch |
+|---|---|
+| ![Viewership section](screenshots/viewership.png) | ![Wrestlers section](screenshots/wrestlers.png) |
 
 ---
 
