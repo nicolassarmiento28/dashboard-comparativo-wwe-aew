@@ -306,17 +306,27 @@ Entidad principal de cada evento con datos económicos y de plataforma.
 
 ## Capturas de Pantalla
 
-<div align="center">
+<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
 
-| Hero — Comparativa WWE vs AEW | Análisis Económico |
-|---|---|
-| ![Hero section](screenshot-hero.png) | ![Economic section](screenshot-economic.png) |
-| KPIs comparativos lado a lado con badges de confianza | Gráficos de gate/revenue, asistencia y estructura de tickets |
+<div style="flex: 1 1 45%; min-width: 300px; text-align: center;">
+  <p style="font-weight: 700; font-size: 15px; margin-bottom: 6px;">🔥 Hero — WWE vs AEW</p>
+  <img src="screenshot-hero.png" alt="Hero section" style="width: 100%; border-radius: 10px;">
+</div>
 
-| Audiencia & Viewership | Luchadores & Merch |
-|---|---|
-| ![Viewership section](screenshot-viewership.png) | ![Wrestlers section](screenshot-wrestlers.png) |
-| Peak viewers históricos, contexto semanal y nota metodológica | Rankings de merch, top seller spotlight y tabla de luchadores |
+<div style="flex: 1 1 45%; min-width: 300px; text-align: center;">
+  <p style="font-weight: 700; font-size: 15px; margin-bottom: 6px;">📊 Análisis Económico</p>
+  <img src="screenshot-economic.png" alt="Economic section" style="width: 100%; border-radius: 10px;">
+</div>
+
+<div style="flex: 1 1 45%; min-width: 300px; text-align: center;">
+  <p style="font-weight: 700; font-size: 15px; margin-bottom: 6px;">📺 Audiencia & Viewership</p>
+  <img src="screenshot-viewership.png" alt="Viewership section" style="width: 100%; border-radius: 10px;">
+</div>
+
+<div style="flex: 1 1 45%; min-width: 300px; text-align: center;">
+  <p style="font-weight: 700; font-size: 15px; margin-bottom: 6px;">👤 Luchadores & Merch</p>
+  <img src="screenshot-wrestlers.png" alt="Wrestlers section" style="width: 100%; border-radius: 10px;">
+</div>
 
 </div>
 
