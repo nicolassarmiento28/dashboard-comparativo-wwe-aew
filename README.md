@@ -8,6 +8,18 @@ Dashboard comparativo de alto nivel para analizar y contrastar métricas económ
 
 ---
 
+## Capturas
+
+| Hero | Análisis Económico |
+|---|---|
+| ![Hero section](screenshots/hero.png) | ![Economic section](screenshots/economic.png) |
+
+| Audiencia & Viewership | Luchadores & Merch |
+|---|---|
+| ![Viewership section](screenshots/viewership.png) | ![Wrestlers section](screenshots/wrestlers.png) |
+
+---
+
 ## Tabla de Contenidos
 
 - [Stack Tecnológico](#stack-tecnológico)
@@ -16,7 +28,7 @@ Dashboard comparativo de alto nivel para analizar y contrastar métricas económ
 - [Instalación y Ejecución Local](#instalación-y-ejecución-local)
 - [API REST](#api-rest)
 - [Estructura de Datos](#estructura-de-datos)
-- [Capturas de Pantalla](#capturas-de-pantalla)
+- [Capturas](#capturas)
 - [Despliegue](#despliegue)
 - [Mantenimiento de Datos](#mantenimiento-de-datos)
 - [Roadmap](#roadmap)
@@ -297,20 +309,6 @@ Entidad principal de cada evento con datos económicos y de plataforma.
 | `confirmed` | Dato de fuente oficial / auditable | Badge verde |
 | `estimated` | Estimación de prensa especializada | Badge ámbar |
 | `no_data` | Sin publicación fiable disponible | Badge gris |
-
----
-
-## Capturas
-
-| Hero | Análisis Económico |
-|---|---|
-| ![Hero section](screenshots/hero.png) | ![Economic section](screenshots/economic.png) |
-
-| Audiencia & Viewership | Luchadores & Merch |
-|---|---|
-| ![Viewership section](screenshots/viewership.png) | ![Wrestlers section](screenshots/wrestlers.png) |
-
----
 
 ## Despliegue
 
